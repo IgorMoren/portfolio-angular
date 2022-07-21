@@ -2,69 +2,14 @@
   <div class="anim pulse"><i class="ion-ios-bolt-outline"></i></div>
 </div>
 <div class="preloader-left"></div>
-<div class="inline-menu-container">
-  <ul class="inline-menu">
-    <li class="about menu-item">Resumen</li>
-    <li class="portfolio menu-item">Portafolio</li>
-    <li class="photo menu-item">Fotografia</li>
-    <li class="contact menu-item">Contacto</li>
-    <li id="close" class="menu-item">
-      <i class="ion-ios-close-empty"></i>
-    </li>
-  </ul>
-</div>
+<app-inline-menu></app-inline-menu>
 <section class="home">
   <div class="bgScroll"></div>
   <div class="overlay opacity7"></div>
   <div class="container">
-    <div class="name-block">
-      <div class="name-block-container">
-        <h1><span>Hola, Soy</span>Igor Moreno</h1>
-        <h2>Desarrollador FrontEnd</h2>
-        <a target="_blank" href="" class="btn btn-download">Descargar CV</a>
-        <ul class="social">
-          <li>
-            <a
-              href="https://www.linkedin.com/in/igormorenoalonso"
-              target_="_blank"
-              ><i class="ion-social-linkedin"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://github.com/IgorMoren/"
-              ><i class="ion-social-github" target_="_blank"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://wa.me/696529209"
-              ><i class="ion-social-whatsapp" target_="_blank"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="menu-blocks">
-      <div class="about-block menu-block">
-        <div class="about-block-container">
-          <h2 class="about menu-item">Resumen</h2>
-        </div>
-      </div>
-      <div class="portfolio-block menu-block">
-        <div class="portfolio-block-container">
-          <h2 class="portfolio menu-item">Proyectos</h2>
-        </div>
-      </div>
-      <div class="photo-block menu-block">
-        <div class="photo-block-container">
-          <h2 class="photo menu-item">Fotografia</h2>
-        </div>
-      </div>
-      <div class="contact-block menu-block">
-        <div class="contact-block-container">
-          <h2 class="contact menu-item">Contacto</h2>
-        </div>
-      </div>
-    </div>
+    <app-name></app-name>
+
+    <app-menu></app-menu>
 
     <app-about-me></app-about-me>
 

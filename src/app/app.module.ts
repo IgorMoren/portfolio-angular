@@ -7,6 +7,9 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { PhotographyComponent } from './photography/photography.component';
 import { ContactComponent } from './contact/contact.component';
+import { MenuComponent } from './menu/menu.component';
+import { InlineMenuComponent } from './inline-menu/inline-menu.component';
+import { NameComponent } from './name/name.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { ContactComponent } from './contact/contact.component';
     ProjectsComponent,
     PhotographyComponent,
     ContactComponent,
+    MenuComponent,
+    InlineMenuComponent,
+    NameComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

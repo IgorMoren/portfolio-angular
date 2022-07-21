@@ -292,7 +292,7 @@ a:not([href]):not([tabindex]) {
   height: 100%;
   background: #333;
   z-index: 999;
-  transition: 0.7s 0.3s transform ease-in-out;
+  transition: 0.3s 0.3s transform ease-in-out;
 }
 
 .slide-left {

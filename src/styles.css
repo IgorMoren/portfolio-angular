@@ -1,25 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
-/*------------------------------------------------------------------
-
-    [Table of contents]
-    
-    0. General Styles
-    2. Home Styles
-    3. Menu Styles
-    4. Page Content
-    5. Name Block
-    6. About Block
-    7. Portfolio Block
-    8. photo Block
-    9. Contact Block
-   10. Responsive
-
--------------------------------------------------------------------*/
-
 /* -------------------------------------------------------------------
 
-                        0. General Styles
-
+                        0. General styles
 -------------------------------------------------------------------*/
 
 body {
@@ -250,7 +231,7 @@ a:not([href]):not([tabindex]) {
 
 /*-------------------------------------------------------------------
 
-                        2. Home Styles
+                        2. Home/menu common Styles
 
 -------------------------------------------------------------------*/
 
@@ -262,12 +243,6 @@ a:not([href]):not([tabindex]) {
   background-size: cover;
   z-index: 0;
 }
-
-/*-------------------------------------------------------------------
-
-                        3. Menu Styles
-
--------------------------------------------------------------------*/
 
 .menu-item {
   cursor: pointer;
@@ -333,7 +308,7 @@ h2.menu-item:after {
 
 /*-------------------------------------------------------------------
 
-                        4. Page Content
+                        4. Page Common
 
 -------------------------------------------------------------------*/
 
@@ -1938,7 +1913,7 @@ h4.package {
   }
 }
 
-@media (max-width: 800px) and (orientation: landscape) {
+/* @media (max-width: 800px) and (orientation: landscape) {
   .home {
     overflow-y: scroll;
   }
@@ -1998,15 +1973,15 @@ h4.package {
   .content-blocks {
     height: 100vh;
   }
-}
+} */
 
 @media (max-width: 800px) {
-  .sidebar-menu,
+  /* .sidebar-menu,
   .home-container {
     left: 0;
     top: 0;
     width: 100%;
-  }
+  } 
   .sidebar-menu {
     height: 50px;
     z-index: 1;
@@ -2026,7 +2001,7 @@ h4.package {
     display: inline-block;
     line-height: 50px;
     padding: 0 10px;
-  }
+  }*/
   .name-block {
     padding-top: 30px;
   }

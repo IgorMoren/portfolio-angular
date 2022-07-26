@@ -1,0 +1,15 @@
+.menu-blocks {
+  transition: all 0.5s;
+}
+
+.menu-blocks.hidex {
+  z-index: -999;
+}
+
+.menu-blocks.showx {
+  z-index: 999;
+}
+
+.menu-block {
+  cursor: pointer;
+}

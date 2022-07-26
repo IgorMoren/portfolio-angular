@@ -1,0 +1,140 @@
+/* --- Inline Menu --- */
+
+.inline-menu-container {
+  background: #f1f3f6;
+  position: fixed;
+  height: 40px;
+  width: 69%;
+  right: 13px;
+  top: -50px;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.inline-menu-container.showx {
+  top: 0;
+}
+
+#close i {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.inline-menu {
+  float: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.inline-menu li {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 40px;
+  margin-top: -5px;
+  padding: 0 15px;
+  color: #666;
+}
+
+.inline-menu li.active,
+.inline-menu li:hover {
+  color: #333;
+}
+
+.inline-menu li.active {
+  cursor: text;
+}
+
+.inline-menu-container.style2 {
+  background: transparent;
+}
+
+.style2 .inline-menu li {
+  color: #fff;
+  font-weight: 400;
+  line-height: 70px;
+}
+
+.style2.dark {
+  background-color: #f1f3f6;
+}
+
+.style2.dark .inline-menu li {
+  color: #666;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.inline-menu-container.style3 {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  height: 40px;
+}
+
+.sidebar-menu {
+  background: #111;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  width: 20%;
+}
+
+.sidebar-menu.hidex {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+.menu4 .inline-menu {
+  margin-right: 0;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu4 .inline-menu li {
+  color: #787878;
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 60px;
+  padding: 0 0 0 30px;
+}
+
+.menu4 .inline-menu li.active {
+  color: #fff;
+}
+
+.close-pop {
+  background-color: #f1f3f6;
+  cursor: pointer;
+  line-height: 40px;
+  height: 40px;
+  position: fixed;
+  text-align: center;
+  width: 69%;
+  right: 13px;
+  top: -60px;
+  transition: all 0.7s;
+  z-index: 1;
+}
+
+.menu4 .close-pop {
+  width: 79%;
+}
+
+.close-pop:hover {
+  opacity: 0.7;
+}
+
+.content-blocks.pop.showx .close-pop {
+  top: 0;
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+  .inline-menu-container {
+    width: 100%;
+    left: 0;
+  }
+}

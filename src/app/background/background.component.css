@@ -1,0 +1,47 @@
+.bgScroll {
+  animation: 40s linear 0s normal none infinite running bgScroll;
+  background: black url(src/assets/images/bg/scroll.jpeg) repeat scroll center
+    top;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 1);
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}
+
+.opacity7 {
+  opacity: 0.7;
+}
+
+.bgScroll {
+  height: 400%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+@-webkit-keyframes bgScroll {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-1934px);
+    transform: translateY(-1934px);
+  }
+}
+
+@keyframes bgScroll {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-1934px);
+    transform: translateY(-1934px);
+  }
+}
